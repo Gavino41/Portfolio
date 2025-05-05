@@ -6,6 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <p>
         hello world
+        my website
       </p>
     </div>
   );
