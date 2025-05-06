@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  top: 0;
+  z-index: 1000;
+  position: sticky;
+  max-width: 100%;
+  border-bottom: 2px solid white;
+  background-color: #101518;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.links {
+  gap: 8rem;
+  margin-left: 4rem;
+  display: flex;
+}
+
+.linkText{
+  text-decoration: none;
+}
+
+.contactMeLink {
+  margin-right: 4rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-inline: 1rem;
+}
+
+.contactMeLink:hover {
+  background-color: darkgray;
+  border: solid black;
+}
+
+.contactMeLinkText{
+  text-decoration: none;
+}
+.contactMeLink:hover .contactMeLinkText{
+  color: black;
+}

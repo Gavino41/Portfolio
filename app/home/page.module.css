@@ -1,0 +1,21 @@
+.main {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerText {
+  margin-top: 5rem;
+  margin-left: 11rem;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.introText {
+  width: 75%;
+  font-size: 22px;
+}
+
