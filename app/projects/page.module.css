@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  width: 29vw;
+  margin-top: 10rem;
+}
+
+.projectsContainer {
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+  max-height: 100px;
+  overflow: hidden;
+  height: 100px;
+  padding: 2rem;
+  margin-left: 10vw;
+  width: 60vw;
+  border: 1px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: white;
+  transition: all 0.5s ease;
+}
+
+.projectsContainer p,
+.projectsContainer ul {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.projectsContainer:hover p,
+.projectsContainer:hover ul{
+  opacity: 1;
+  max-height: 500px;
+}
+
+.projectsContainer:hover {
+  background-color: #222222;
+  height: 500px;
+  max-height: 500px;
+}
+
+.project {
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.projectTitleDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.projectTitle {
+  font-size: 40px;
+  margin-left: 2vw;
+}
+
+.jobDuration {
+  font-size: 30px;
+  padding-top: 1.2rem;
+}
+
+.jobTitle {
+  font-size: 30px;
+  color: darkgray;
+  padding-top: 1.2rem;
+  margin-right: 1rem;
+}
+
+.list {
+  font-size: 2rem;
+  color: white;
+}
+
+.bulletPoints {
+  margin-top: 1rem;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.technologies {
+  padding-left: 3rem;
+}
+
+
