@@ -6,7 +6,7 @@
   max-width: 100%;
   border-bottom: 2px solid white;
   background-color: #101518;
-  padding: 1rem;
+  padding: 4rem;
   justify-content: space-between;
 }
 
@@ -16,8 +16,15 @@
   display: flex;
 }
 
-.linkText{
+.button{
+  display: flex;
   text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding: 1rem;
+  align-content: center;
 }
 
 .contactMeLink {
