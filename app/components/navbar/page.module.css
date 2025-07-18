@@ -16,6 +16,10 @@
   display: flex;
 }
 
+.button:hover {
+  color: #222222;
+}
+
 .button{
   display: flex;
   text-decoration: none;
@@ -34,9 +38,19 @@
   padding-inline: 1rem;
 }
 
+.contactButton {
+  display: flex;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding: 1rem;
+  align-content: center; 
+}
+
 .contactMeLink:hover {
-  background-color: darkgray;
-  border: solid black;
+  background-color: #222222;
 }
 
 .contactMeLinkText{

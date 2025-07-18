@@ -11,7 +11,7 @@ export default function Navbar() {
         <a href="#about" className={styles.button}> About Me </a>
       </div>
       <div className={styles.contactMeLink} >
-        <a href="#contact" className={styles.button}> Contact Me </a>
+        <a href="#contact" className={styles.contactButton}> Contact Me </a>
       </div>
     </div>
   );

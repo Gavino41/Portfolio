@@ -1,0 +1,22 @@
+.aboutContainer {
+  margin-top: 10rem;
+}
+
+.aboutHeader {
+  display: flex;
+  width: 29vw;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.aboutParagraph {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+}
+
+.paragraph {
+  font-size: 30px;
+  text-align: center;
+  width: 70vw;
+}
