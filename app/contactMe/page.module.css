@@ -1,0 +1,62 @@
+.headerText {
+  font-size: 4rem;
+  margin-left: 5%;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  width: 75vw;
+  gap: 2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 3rem;
+}
+
+.email {
+  font-size: 26px;
+  outline: none;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.message {
+  height: 220px;
+  resize: none;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  vertical-align: top;
+  border-radius: 30px;
+  outline: none;
+  font-size: 26px;
+  padding: 1rem;
+}
+
+.submit {
+  justify-self: center;
+  color: black;
+  font-size: 2.5rem;
+  width: 55%;
+  outline: none;
+  border-radius: 50px;
+  padding: 1rem;
+}
