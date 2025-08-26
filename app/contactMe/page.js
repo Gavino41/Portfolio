@@ -19,13 +19,38 @@ export default function ContactMe() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const allFilled = Object.values(form).every((val) => val.trim() !== '');
     if (allFilled != "") {
-      console.log("submitted", form)
+      console.log(form);
+      try {
+        const response = await fetch("portfoliobackend-production-20f3.up.railway.app/contact/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
+        if (response.ok) {
+          setForm((prevForm) => ({
+            ...prevForm,
+            name: "",
+            email: "",
+            message: ""
+          }));
+          alert("Your message has been sent")
+        }
+        else {
+          alert("error please try again later")
+        }
+      }catch (error) {
+        console.error("Error sending email:", error);
+      }
+
+    } else {  
+      alert("please fill out all of form")
     }
-    alert("please fill out all of form")
   }
   return (
     <>
