@@ -25,7 +25,7 @@ export default function ContactMe() {
     if (allFilled != "") {
       console.log(form);
       try {
-        const response = await fetch("http://portfoliobackend-production-20f3.up.railway.app/contact/email", {
+        const response = await fetch("https://portfoliobackend-production-20f3.up.railway.app/contact/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
