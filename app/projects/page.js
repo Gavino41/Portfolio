@@ -2,7 +2,7 @@ import styles from './page.module.css'
 
 function Projects() {
   return (
-    <>
+    <div className={styles.projects}>
       <h1 className={styles.header}> Projects </h1>
       <div className={styles.projectsContainer}>
         <div className={styles.project} >
@@ -29,11 +29,13 @@ function Projects() {
           </div>
           <div className={styles.technology} >
             <p className={styles.techHeader} >Technologies Used: </p>
-            <p className={styles.technologies} > React </p>
-            <p className={styles.technologies} > Flask </p>
-            <p className={styles.technologies} > CloudFlare </p>
-            <p className={styles.technologies} > JavaScript </p>
-            <p className={styles.technologies} > Github </p>
+            <div className={styles.technologiesContainer}>
+              <p className={styles.technologies} > React </p>
+              <p className={styles.technologies} > Flask </p>
+              <p className={styles.technologies} > CloudFlare </p>
+              <p className={styles.technologies} > JavaScript </p>
+              <p className={styles.technologies} > Github </p>
+            </div>
           </div>
         </div>
       </div>
@@ -62,10 +64,12 @@ function Projects() {
           </div>
           <div className={styles.technology} >
             <p className={styles.techHeader} >Technologies Used: </p>
-            <p className={styles.technologies} > React Native</p>
-            <p className={styles.technologies} > FireBase </p>
-            <p className={styles.technologies} > JavaScript </p>
-            <p className={styles.technologies} > Github </p>
+            <div className={styles.technologiesContainer}>
+              <p className={styles.technologies} > React Native</p>
+              <p className={styles.technologies} > FireBase </p>
+              <p className={styles.technologies} > JavaScript </p>
+              <p className={styles.technologies} > Github </p>
+            </div>
           </div>
         </div>
       </div>
@@ -94,14 +98,16 @@ function Projects() {
           </div>
           <div className={styles.technology} >
             <p className={styles.techHeader} >Technologies Used: </p>
-            <p className={styles.technologies} > WordPress</p>
-            <p className={styles.technologies} > Cisco </p>
-            <p className={styles.technologies} > Synology </p>
-            <p className={styles.technologies} > CloudFlare </p>
+            <div className={styles.technologiesContainer}>
+              <p className={styles.technologies} > WordPress</p>
+              <p className={styles.technologies} > Cisco </p>
+              <p className={styles.technologies} > Synology </p>
+              <p className={styles.technologies} > CloudFlare </p>
+            </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 export default Projects;
